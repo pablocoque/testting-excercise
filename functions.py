@@ -7,5 +7,14 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-def convert_fahrenheit_to_celsius(fahrenheit):
-    return multiply(subtract(fahrenheit, 32), 9 / 5) # <-- Fix this in step 7
+#def convert_fahrenheit_to_celsius(fahrenheit):
+#    return multiply(subtract(fahrenheit, 32), 9 / 5) # <-- Fix this in step 7
+
+def test_add():
+    assert add(2,3) == 5
+
+def subtract():
+    assert subtract(2, 3) == -1
+
+def  multiply():
+    assert multiply(2,3) == 6
